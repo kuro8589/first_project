@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0%;  
+}
+h1{
+    color: rgb(104, 221, 21);
+}
+h2{
+    color: rgb(104, 221, 21);
+}
+
+.logo{
+    width: 8.8%;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+.body-index{
+    font-family: sans-serif;
+    padding: 180px 30px 0;
+    background-image: url(../Img/Koei_Tecmo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header{
+    background-color: rgb(10, 56, 102);
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    padding: 7px 11px;
+    border-radius: 3px;
+
+}
+.barra-navegacion{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.menu-navegacion{
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.menu-link:hover{
+    background-color: black;
+    transition: .7s;
+}
+.pie-de-pagina{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    border-radius: 3px;
+}
+.red-social:hover{
+    background-color: black;
+}
+.red-social{
+    color: rgb(236, 9, 13);
+    text-decoration: none;
+    padding: 7px 11px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.registro{
+    color: rgb(104, 221, 21);
+    text-decoration: none;
+}
+.seccion{
+    font-family: sans-serif;
+    color: rgb(104, 221, 21);
+    font-style: italic;
+    margin: 20px;
+    padding: 7px 11px;
+    text-transform: uppercase;
+}
+
+.image{
+    margin: 20px 20px;
+    border-radius: 40px;
+    padding: 0%;
+    height: 5%;
+}
+.body-games{
+    margin: 0%;
+    padding: 2%;
+    background-color: #343a40;
+}
+.article-games{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: fit-content;
+      padding: 10%;
+      
+}
+.red-social-games{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 7px 18px;
+    src: url(../Fonts/Persona\ Non\ Grata.ttf);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.red-social-games:hover{
+    background-color: #dc2f02;
+    transition-duration: .5s;
+    border-radius: 10%;
+}
+.nioh__2{
+    border-radius: 10%;
+}
+.nioh__samurai{
+    border-radius: 10%;
+    height: 700px;
+}
+.image__atelier{
+    border-radius: 10%;
+    height: 500px;
+}
+
+.article-teams{
+    padding: 80px;
+}
+.parrafo-teams{
+    font-family: sans-serif;
+    font-style: oblique;
+    padding: 30px;
+    color: #0c0f0a;
+}
+.body-teams{
+    background-color: #bbdefb;
+}
+.red-social-teams:hover{
+    background-color: #f7b538;
+    transition-duration: .5s;
+    border-radius: 10%;
+}
+.red-social-teams{
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    padding: 7px 18px;
+    src: url(../Fonts/Persona\ Non\ Grata.ttf);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.parrafo-about{
+    padding: 100px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: #0c0f0a;
+    margin: 0%;
+}
+.image-about{
+    border-radius: 10%;
+    height: 500px;
+    margin: 0%;
+    padding: 30px;
+}
+.body-about{
+    background-color: #f5f1ed;
+}
+
+.article-vintage{
+    padding: 90px;
+    font-family: sans-serif;
+    font-style: oblique;
+    color: #c77dff;
+}
+.body-vintage{
+    padding: 180px 30px 0;
+    background-image: url(../Img/koeilogo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.red-social-vintage{
+    color:  white;
+    text-decoration: none;
+    padding: 7px 18px;
+    src: url(../Fonts/Persona\ Non\ Grata.ttf);
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.red-social-vintage:hover{
+    background-color: #f01212;
+    transition-duration: .5s;
+    border-radius: 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px;
+    width: 750px;
+} 
+.image__grid{
+    grid-template-columns: 1/3;
+    color: #dc2f02;
+}
