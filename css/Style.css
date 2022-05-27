@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0%;  
+    padding: 0;
+    box-sizing: border-box;  
 }
 h1{
     color: rgb(104, 221, 21);
@@ -14,6 +15,7 @@ h2{
     padding: 0 10px;
     margin-left: 20px;
 }
+                  /* Class del Index.html */
 
 .body-index{
     font-family: sans-serif;
@@ -91,25 +93,29 @@ h2{
     text-transform: uppercase;
 }
 
-.image{
+.imagen{
     margin: 20px 20px;
     border-radius: 40px;
     padding: 0%;
     height: 5%;
 }
-.body-games{
+
+                 /* Class Games */
+/*.body-games{
     margin: 0%;
     padding: 2%;
     background-color: #343a40;
-}
-.article-games{
+}*/ 
+
+
+/*.article-games{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       height: fit-content;
       padding: 10%;
       
-}
+}*/
 .red-social-games{
     color: whitesmoke;
     text-decoration: none;
@@ -124,17 +130,35 @@ h2{
     transition-duration: .5s;
     border-radius: 10%;
 }
-.nioh__2{
-    border-radius: 10%;
+.body-games{
+    font-size: 3rem;
+    margin: 100px;
 }
-.nioh__samurai{
-    border-radius: 10%;
-    height: 700px;
+.grid-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.image__atelier{
-    border-radius: 10%;
-    height: 500px;
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 140px, 1fr));
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+    grid-auto-flow: dense;
 }
+
+.wide{
+    grid-column: 1/-1;
+}
+.tall{
+    grid-row: span 2;
+}
+
+               /* Class Teams */
 
 .article-teams{
     padding: 80px;
@@ -162,6 +186,9 @@ h2{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+       /* Class About */
+
 .parrafo-about{
     padding: 100px;
     font-family: sans-serif;
@@ -178,6 +205,8 @@ h2{
 .body-about{
     background-color: #f5f1ed;
 }
+
+      /* Class Vintage*/
 
 .article-vintage{
     padding: 90px;
@@ -206,15 +235,4 @@ h2{
     background-color: #f01212;
     transition-duration: .5s;
     border-radius: 10%;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 250px 250px 250px;
-    grid-template-rows: 250px 250px 250px;
-    width: 750px;
-} 
-.image__grid{
-    grid-template-columns: 1/3;
-    color: #dc2f02;
 }
