@@ -1,73 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Ninja</title>
-    <link rel="stylesheet" href="./css/Style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Team Ninja Website</title>
 </head>
-<body class="body-index">
-  <!--Inicia la Pagina Principal-->
-
-     <h1>Team Ninja Web site</h1>
-     <section class="seccion">
-       <p>
-         <b>
+<body class="body__index">
+  <header>
+    <!--inicia la barra de navegacion-->
+   <picture>
+    <img src="./Logo/Logo.svg" alt="">
+     </picture>          
+      <nav>
+       <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="./Pages/Games.html">Games</a>
+        </li>
+        <li>
+          <a href="./Pages/Teams.html">Teams</a>
+        </li>
+        <li>
+          <a href="./Pages/About Us.html">About Us</a>
+        </li>
+        <li>
+          <a href="./Vintage.html">Vintage</a>
+        </li>
+       </ul>
+      </nav>
+  </header>
+  <main>
+    <section>
+      <p>  <!--LOREM-->
+        <b>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati recusandae fugiat modi suscipit qui beatae praesentium, error, odio atque iusto provident omnis quas blanditiis repudiandae, neque sunt voluptatum dicta quae!
-         </b>
+
+        </b>
        </p>
-     </section>
-     <header class="header">
-       <!--Inicia la barra de navegacion con Links-->
-       <nav class="navegacion">
-         <img class="logo" src="./Logo/Logo.svg" alt="Logo">
-         <ul class="barra-navegacion">
-           <li class="menu-navegacion">
-             <a href="index.html" class="menu-link" >Home</a>
-            </li>
-           <li class="menu-navegacion">
-             <a href="./Pages/Games.html" class="menu-link">Games</a>
-            </li>
-           <li class="menu-navegacion">
-             <a href="./Pages/Teams.html" class="menu-link">Teams</a>
-            </li>
-           <li class="menu-navegacion">
-             <a href="./Pages/About Us.html" class="menu-link">About Us</a>
-            </li>
-            <li class="menu-navegacion">
-              <a href="./Pages/Vintage.html" class="menu-link">Vintage</a>
-            </li>
-         </ul>
-       </nav>
-     </header>
-     <main> <!--Ver registro y mejorarlo-->
-      <h2 class="registro">
-        <img  class="imagen" src="./Img/Nioh-1.jpg" alt="foto">
-        Registrate Para Recibir noticias
-      </h2>
-     </main>
-     <section>
-     <form action="./index.js" method="get">
-      <label for="Nombre">Nombre:</label>
-      <input type="text" name="Nombre" required>
-      <input type="submit" value="Enviar" required>
-      <label for="Email">email:</label>
-      <input type="email" name="Email" required>
-      <input type="submit" value="Enviar" required>
+                      <!--IMAGENES-->
+      <div class="index__gallery">               
+       <picture>
+         <img src="Img/koeilogo.jpg" alt="">
+      </picture>
+       <picture>
+         <img src="Img/Team-ninja.jpg" alt="">
+      </picture>
+       <picture>
+         <img src="Img/Atelier-25th-Anniversary-Title.jpg" alt="">
+      </picture>
+    </div>
     </section>
-<body>     
-  <footer> <!--Inicia Footer-->
-    <ul class="pie-de-pagina">
-      <li class="red-social">
-        Instagram
-      </li>
-      <li class="red-social">
-        LinkedIn
-      </li>
-      <li class="red-social">
-        Facebook
-      </li>
-    </ul>
+    <section>
+      <p>
+        Registrate para recibir noticias
+      </p>
+      <form action="./index.js" method="get">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" required>
+        <input type="submit" value="Enviar" required>
+        <label for="Email">email:</label>
+        <input type="email" name="Email" required>
+        <input type="submit" value="Enviar" required>
+    </section>
+  </main>
+                    <!--Comienza el Footer-->
   <footer>
+    <p>
+      Sígueme en mi etapa de Aprendizaje →</p>
+      <a href="https://github.com/kuro8589/first_project/">Github</a>
+  </footer>
+</body>
 </html>

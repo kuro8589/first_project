@@ -1,238 +1,190 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  
-}
-h1{
-    color: rgb(104, 221, 21);
-}
-h2{
-    color: rgb(104, 221, 21);
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,700;1,400&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
-.logo{
-    width: 8.8%;
-    padding: 0 10px;
-    margin-left: 20px;
-}
-                  /* Class del Index.html */
+html {
+    font-size: 62.5%;
 
-.body-index{
-    font-family: sans-serif;
-    padding: 180px 30px 0;
-    background-image: url(../Img/Koei_Tecmo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
-.header{
-    background-color: rgb(10, 56, 102);
-    height: 90px;
-    position: fixed;
-    width: 100%;
-    top: 0%;
-    left: 0%;
+body {
+    font-family: 'Nunito', sans-serif;
 }
-.navegacion{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-.menu-link{
+
+a {
+    text-decoration: none;
+    font-family: 'Cambay', sans-serif;
     color: white;
-    text-decoration: none;
-    padding: 7px 11px;
-    border-radius: 3px;
+}
 
-}
-.barra-navegacion{
-    display: flex;
-    margin-right: 40px;
-    list-style: none;
-}
-.menu-navegacion{
-    font-size: 15px;
-    margin: 0 10px;
-    line-height: 80px;
-    text-transform: uppercase;
-    width: max-content;
-}
-.menu-link:hover{
-    background-color: black;
-    transition: .7s;
-}
-.pie-de-pagina{
-    display: flex;
-    list-style: none;
-    justify-content: flex-end;
-    border-radius: 3px;
-}
-.red-social:hover{
-    background-color: black;
-}
-.red-social{
-    color: rgb(236, 9, 13);
-    text-decoration: none;
-    padding: 7px 11px;
+/* SECTION INDEX */
+section p {
+    font-size: 1.8em;
     font-family: sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-}
-.registro{
-    color: rgb(104, 221, 21);
-    text-decoration: none;
-}
-.seccion{
-    font-family: sans-serif;
-    color: rgb(104, 221, 21);
+    color: #f77f00;
     font-style: italic;
     margin: 20px;
     padding: 7px 11px;
     text-transform: uppercase;
 }
-
-.imagen{
-    margin: 20px 20px;
-    border-radius: 40px;
-    padding: 0%;
-    height: 5%;
-}
-
-                 /* Class Games */
-/*.body-games{
-    margin: 0%;
-    padding: 2%;
-    background-color: #343a40;
-}*/ 
-
-
-/*.article-games{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: fit-content;
-      padding: 10%;
-      
-}*/
-.red-social-games{
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 7px 18px;
-    src: url(../Fonts/Persona\ Non\ Grata.ttf);
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.red-social-games:hover{
-    background-color: #dc2f02;
-    transition-duration: .5s;
-    border-radius: 10%;
-}
-.body-games{
-    font-size: 3rem;
-    margin: 100px;
-}
-.grid-item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax( 140px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
-    gap: 20px;
-    grid-auto-flow: dense;
-}
-
-.wide{
-    grid-column: 1/-1;
-}
-.tall{
-    grid-row: span 2;
-}
-
-               /* Class Teams */
-
-.article-teams{
-    padding: 80px;
-}
-.parrafo-teams{
-    font-family: sans-serif;
-    font-style: oblique;
-    padding: 30px;
-    color: #0c0f0a;
-}
-.body-teams{
-    background-color: #bbdefb;
-}
-.red-social-teams:hover{
-    background-color: #f7b538;
-    transition-duration: .5s;
-    border-radius: 10%;
-}
-.red-social-teams{
-    color: rgb(23, 22, 22);
-    text-decoration: none;
-    padding: 7px 18px;
-    src: url(../Fonts/Persona\ Non\ Grata.ttf);
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-       /* Class About */
-
-.parrafo-about{
-    padding: 100px;
-    font-family: sans-serif;
-    font-style: oblique;
-    color: #0c0f0a;
-    margin: 0%;
-}
-.image-about{
-    border-radius: 10%;
-    height: 500px;
-    margin: 0%;
-    padding: 30px;
-}
-.body-about{
-    background-color: #f5f1ed;
-}
-
-      /* Class Vintage*/
-
-.article-vintage{
-    padding: 90px;
-    font-family: sans-serif;
-    font-style: oblique;
-    color: #c77dff;
-}
-.body-vintage{
-    padding: 180px 30px 0;
-    background-image: url(../Img/koeilogo.jpg);
+/* BODY INDEX */
+.body__index {
+    background-color: #f5ebe0;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-.red-social-vintage{
-    color:  white;
-    text-decoration: none;
-    padding: 7px 18px;
-    src: url(../Fonts/Persona\ Non\ Grata.ttf);
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
+
+/* GALLERY ONDEX */
+.index__gallery {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
 }
-.red-social-vintage:hover{
-    background-color: #f01212;
+form label {
+    font-size: 2rem;
+}
+
+/*  HEADER */
+   header {
+       display: flex;
+       align-items: center;
+       justify-content: space-around;
+       background-color: #0077b6;
+}
+header picture {
+    flex-basis: 50%;
+}
+
+header picture img {
+    max-width: 100px;
+}
+img {
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    flex-basis: 60%;
+    gap: 2.5rem;
+}
+
+nav ul a {
+    font-size: 1.8em;
+}
+nav ul a:hover {
+    transition-duration: .7s;
+    background-color: #fca311;
+    border-radius: 8%;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* MAIN */
+section {
+  display: Flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  Justify-content: center;
+}
+
+/* GALERIA */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 130px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    gap: 1rem;
+    grid-auto-flow: dense;
+}
+
+.gallery__img:nth-of-type(1) {
+     grid-column: 1 / 5;
+     grid-row: 1 / 2;
+}
+
+.gallery__img:nth-of-type(2) {
+    grid-column: 5 / 13;
+}
+
+.gallery__img:nth-of-type(3) {
+    grid-column: 1 / 6;
+    
+}
+
+.gallery__img:nth-of-type(4) {
+    grid-column: 6 / 13;
+    
+}
+
+.gallery__img:nth-of-type(5) {
+ grid-column: 6 / 10;
+}
+
+.gallery__img:nth-of-type(6) {
+    grid-column: 1 / 6;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #0077b6;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Cambay', sans-serif;
+}
+footer a:hover {
+    background-color: #fca311;
     transition-duration: .5s;
     border-radius: 10%;
+}
+footer p {
+    font-family: 'Cambay', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax( 300px, auto));
+    .gallery__img:nth-of-type(1) {
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
+   }
+   
+   .gallery__img:nth-of-type(2) {
+       grid-column: 3 / 4;
+   }
+   
+   .gallery__img:nth-of-type(3) {
+       grid-column: 1 / 3;
+       
+   }
+   
+   .gallery__img:nth-of-type(4) {
+       grid-column: 3 / 7;
+       
+   }
+   
+   .gallery__img:nth-of-type(5) {
+    grid-column: 4 / 13;
+   }
+   
+   .gallery__img:nth-of-type(6) {
+       grid-column: 1 / 3;
+   }
+
+    footer {
+        flex-direction: column;
+    }
+    
 }
