@@ -10,6 +10,10 @@ html {
     font-size: 62.5%;
 
 }
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 body {
     font-family: 'Nunito', sans-serif;
