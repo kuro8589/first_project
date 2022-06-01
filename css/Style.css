@@ -56,23 +56,23 @@ form label {
 }
 
 /*  HEADER */
-   header {
+  /* header {
        display: flex;
        align-items: center;
        justify-content: space-around;
        background-color: #0077b6;
 }
-header picture {
+/*header picture {
     flex-basis: 50%;
 }
 
 header picture img {
     max-width: 100px;
-}
+}*/
 img {
     width: 100%;
 }
-nav ul {
+/*nav ul {
     display: flex;
     flex-basis: 60%;
     gap: 2.5rem;
@@ -244,3 +244,13 @@ section img {
     flex-basis: 50%;
     margin: 0 auto;
 }
+
+/* BOOTSTRAP */
+.container-fluid {
+    font-size: 17px;
+}
+.img-fluid {
+    width: 100px; 
+    height: 100px;
+}
+

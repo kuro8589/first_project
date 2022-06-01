@@ -5,32 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <!--LINK BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Team Ninja</title>
 </head>
 <body>
     <header>
-      <picture>
-        <img src="../Logo/Logo.svg" alt="">
-         </picture>          
-          <nav>
-           <ul>
-            <li>
-              <a href="../index.html">Home</a>
-            </li>
-            <li>
-              <a href="./Games.html">Games</a>
-            </li>
-            <li>
-              <a href="./Teams.html">Teams</a>
-            </li>
-            <li>
-              <a href="./About-Us.html">About Us</a>
-            </li>
-            <li>
-              <a href="./Vintage.html">Vintage</a>
-            </li>
+      <nav class="navbar navbar-expand-lg bg-danger">
+        <div class="container-fluid">
+         <a class="navbar-brand" href="#"><img src="../Logo/Logo.svg" class="img-fluid" alt=""></a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="../Pages/Teams.html">Teams</a>
+             </li>
+             <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                       Games
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <li><a class="dropdown-item" href="#">Nioh</a></li>
+                 <li><a class="dropdown-item" href="#">Ninja Gaiden</a></li>
+                 <li><hr class="dropdown-divider"></li>
+                 <li><a class="dropdown-item" href="#">Fatal Frame</a></li>
+               </ul>
+               <li class="nav-item">
+                 <a class="nav-link" href="../Pages/About-Us.html">About Us</a>
+                 <li class="nav-item">
+                   <a class="nav-link" href="../Pages/Vintage.html">Vintage</a>
+             </li>
            </ul>
-          </nav>
+             <form class="d-flex" role="search">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+           </form>
+         </div>
+       </div>
+     </nav>
     </header>
         <main>
 
@@ -56,5 +73,6 @@
     Sígueme en mi etapa de Aprendizaje →</p>
     <a href="https://github.com/kuro8589/first_project/">Github</a>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
