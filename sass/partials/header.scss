@@ -1,0 +1,38 @@
+/*  HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0077b6;
+
+    & picture {
+        flex-basis: 50%;
+    }
+    & header picture img{
+        max-width: 100px;
+    }
+}
+
+img {
+ width: 100%;
+}
+
+nav ul {
+      display: flex;
+      flex-basis: 60%;
+      gap: 2.5rem;
+    & ul a {
+        font-size: 1.8em;
+    }
+}
+
+nav ul a:hover {
+ transition-duration: .7s;
+ background-color: #fca311;
+ border-radius: 8%;
+
+}
+
+ul {
+ list-style-type: none;
+}
